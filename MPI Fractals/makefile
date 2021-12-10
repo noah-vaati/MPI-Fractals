@@ -1,8 +1,3 @@
-# Comp 4510 - Sample OpenMP Makefile
-
-###############################################
-# Change these files names to match your own: #
-###############################################
 
 # name of the executable to be generated
 PROG = julia
@@ -10,10 +5,6 @@ PROG = julia
 HDRS = julia.h
 # space-delimited list of source files
 SRCS = julia.c 
-
-#######################
-# Don't change these: #
-#######################
 
 # directory to store object files
 OBJDIR = object
