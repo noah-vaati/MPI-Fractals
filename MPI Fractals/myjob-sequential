@@ -1,0 +1,10 @@
+#!/bin/bash
+#$ -cwd
+#$ -o /dev/null
+#$ -e /dev/null
+./julia > output.txt
+
+# Sequential job script - use this to launch the
+# sequential version of the julia fractal set program.
+# DO NOT use it for your parallel version - grab an
+# MPI job script from one of the example programs instead.
